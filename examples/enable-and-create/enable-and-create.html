@@ -1,0 +1,19 @@
+<head>
+  <title>enable-and-create</title>
+</head>
+
+<body>
+  {{loginButtons}}
+  <br />
+  {{> notifications}}
+</body>
+
+<template name="notifications">
+  <p>Sign in first.</p>
+  {{#if allowsNotifications}}
+    Notifications are enabled!
+  {{else}}
+    <a href="#" class='enable-notifications'> Enable Notifications </a>
+  {{/if}}
+  <a href="#" class='create-notification'> Create Notification </a>
+</template>

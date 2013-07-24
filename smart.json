@@ -1,0 +1,10 @@
+{
+  "name": "webkit-notifications",
+  "description": "A simple wrapping for Webkit Notifications",
+  "homepage": "https://github.com/robertlowe/meteor-webkit-notifications",
+  "author": "Robert Lowe",
+  "version": "0.1.0",
+  "git": "https://github.com/robertlowe/meteor-webkit-notifications.git",
+  "packages": {
+  }
+}
